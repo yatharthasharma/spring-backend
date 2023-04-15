@@ -1,4 +1,6 @@
 fileignoreconfig:
 - filename: mvnw
   checksum: 525d6897dc14f8a1884cdb1cfd0fdf8179230a04afcddca9158c09040117ae85
+- filename: src/main/resources/application.yaml
+  checksum: 551a182e3962a00cb301e181cf682c53cbcc242373489ba9a26645a5ab40cf20
 version: ""
