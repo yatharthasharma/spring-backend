@@ -3,4 +3,12 @@ fileignoreconfig:
   checksum: 525d6897dc14f8a1884cdb1cfd0fdf8179230a04afcddca9158c09040117ae85
 - filename: src/main/resources/application.yaml
   checksum: 551a182e3962a00cb301e181cf682c53cbcc242373489ba9a26645a5ab40cf20
+- filename: src/main/resources/sql/V1__create_customer_table.sql
+  checksum: 95fc3be4d862a789a9fee6643bd2325254a0ff3aa83463c118b1b16263f89403
+- filename: pom.xml
+  checksum: 406f3cc2ea62eef328d02e8baf1b67758b753dff901e540b41b9ee9fe157acf5
+- filename: docker-compose.yaml
+  checksum: 8f8f2b8f0709d7f3ec035966ae71d075b7eecf479390767dc7913e1ebb0cbcba
+- filename: src/main/resources/application.yaml
+  checksum: 23b7f7135e893dcf6dc27ac8810c45243c4749d0e36e18c9a501f882eb59e468
 version: ""
