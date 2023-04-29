@@ -9,7 +9,7 @@ This project uses the following:
 
 Run using ```./mvnw spring-boot:run```
 
-Execute flying migrations using ```./mvnw flyway:migrate``` & check the latest information using ```./mvnw flyway:info```
+Execute flyway migrations using ```./mvnw flyway:migrate``` & check the latest information using ```./mvnw flyway:info```
 
 ## Helpful notes
 
