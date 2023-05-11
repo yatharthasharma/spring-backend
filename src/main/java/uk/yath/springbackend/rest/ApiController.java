@@ -5,9 +5,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/api")
 public class ApiController {
     private static final Logger LOGGER = LoggerFactory.getLogger(ApiController.class);
 
@@ -17,10 +19,10 @@ public class ApiController {
         this.apiService = apiService;
     }
 
-    @GetMapping("/api/")
+    @GetMapping("/send")
     ResponseEntity<HttpStatus> getMapping() {
-        LOGGER.info("Get endpoint is working!");
-        apiService.operation();
+        LOGGER.info("Kafka produce endpoint is working!");
+        apiService.sendOperation();
         return new ResponseEntity<>(HttpStatus.OK);
     }
 }
